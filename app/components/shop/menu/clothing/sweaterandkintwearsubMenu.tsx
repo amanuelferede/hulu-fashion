@@ -2,10 +2,10 @@
 
 import { useParams } from "next/navigation";
 
-export default function JumpSuitsAndPlaySuitsSubMenu({
-  jumpSuitsAndPlaySuitsSubMenu,
+export default function SweaterAndkintWearSubMenu({
+  sweaterAndKintWearSubMenu,
 }: {
-  jumpSuitsAndPlaySuitsSubMenu: {
+  sweaterAndKintWearSubMenu: {
     name: string;
     value: string;
   }[];
@@ -18,7 +18,7 @@ export default function JumpSuitsAndPlaySuitsSubMenu({
   }>();
   return (
     <div className="flex flex-col space-y-1.5 text-sm font-medium">
-      {jumpSuitsAndPlaySuitsSubMenu.map((subMenu, index) => {
+      {sweaterAndKintWearSubMenu.map((subMenu, index) => {
         return (
           <div key={index}>
             <div>

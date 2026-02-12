@@ -5,11 +5,8 @@ import { dressesSubMenu } from "@/app/data/shop/women/menus/clothing/dresses";
 import DressesSubMenu from "./dressessubmenu";
 import JeansSubMenu from "./jeanssubmenu";
 import { jeansSubMenu } from "@/app/data/shop/women/menus/clothing/jeans";
-import SweaterAndkintWearSubMenu from "./sweaterandkintwearsubmenu";
-import { sweaterAndKintWearSubMenu } from "@/app/data/shop/women/menus/clothing/sweaterandkintwear";
 import CoatsSubMenu from "./coatssubmenu";
 import { coatsSubMenu } from "@/app/data/shop/women/menus/clothing/coats";
-import JacketsSubMenu from "./jacketssubmenu";
 import { jacketsSubMenu } from "@/app/data/shop/women/menus/clothing/jackets";
 import SkirtsSubMenu from "./skirtssubmenu";
 import { skirtsSubMenu } from "@/app/data/shop/women/menus/clothing/skirts";
@@ -18,16 +15,20 @@ import { underWearSubMenu } from "@/app/data/shop/women/menus/clothing/underwear
 import SweaterAndHoodies from "./sweatersandhoodiessubment";
 import { sweatersAndHoodies } from "@/app/data/shop/women/menus/clothing/sweatersandhoodies";
 import Tops from "./topssubmenu";
-import { PlaySuitsAndJumpSuits } from "@/app/data/shop/women/menus/clothing/jumpsuitsandplaysuits";
-import Pants from "./pants";
+
 import { tops } from "@/app/data/shop/women/menus/clothing/tops";
 import { pants } from "@/app/data/shop/women/menus/clothing/pants";
-import Occasions from "./occations";
 import { occasions } from "@/app/data/shop/women/menus/clothing/occassions";
-import BlousesAndtunics from "./blousesandtunics";
 import { blousesAndTunics } from "@/app/data/shop/women/menus/clothing/blousesandtunics";
 import Link from "next/link";
-import JumpSuitsAndPlaySuits from "./jumpsuitsandplaysuitssubmenu";
+import OccationsSubMenu from "./occationssubmenu";
+import BlousesAndtunicsSubMenu from "./blousesandtunicssubmenu";
+import PantsSubMenu from "./pantssubmenu";
+import JacketsSubMenu from "./jacketssubmenu";
+import JumpSuitsAndPlaySuitsSubMenu from "./jumpsuitsandplaysuitssubmenu";
+import { PlaySuitsAndJumpSuits } from "@/app/data/shop/women/menus/clothing/jumpsuitsandplaysuits";
+import { sweaterAndKintWearSubMenu } from "@/app/data/shop/women/menus/clothing/sweaterandkintwear";
+import SweaterAndkintWearSubMenu from "./sweaterandkintwearsubMenu";
 
 export default function ClothingSubMenu({
   clothingSubMenus,
@@ -109,7 +110,7 @@ export default function ClothingSubMenu({
               slug[1] === "jumpsuits-playsuits" &&
               subMenu.value === slug[1] && (
                 <div className="pl-3 mt-1.5">
-                  <JumpSuitsAndPlaySuits
+                  <JumpSuitsAndPlaySuitsSubMenu
                     jumpSuitsAndPlaySuitsSubMenu={PlaySuitsAndJumpSuits}
                   />
                 </div>
@@ -121,19 +122,19 @@ export default function ClothingSubMenu({
             )}
             {slug && slug[1] === "pants" && subMenu.value === slug[1] && (
               <div className="pl-3 mt-1.5">
-                <Pants pantsSubMenu={pants} />
+                <PantsSubMenu pantsSubMenu={pants} />
               </div>
             )}
             {slug && slug[1] === "occasions" && subMenu.value === slug[1] && (
               <div className="pl-3 mt-1.5">
-                <Occasions occasionsSubMenu={occasions} />
+                <OccationsSubMenu occasionsSubMenu={occasions} />
               </div>
             )}
             {slug &&
               slug[1] === "blouses-tunics" &&
               subMenu.value === slug[1] && (
                 <div className="pl-3 mt-1.5">
-                  <BlousesAndtunics
+                  <BlousesAndtunicsSubMenu
                     blousesAndTunicsSubMenu={blousesAndTunics}
                   />
                 </div>
