@@ -4,8 +4,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 
 import Slider from "react-slick";
-import { celebCollections } from "@/app/data/men/celebcollections";
-import { celebsSell } from "@/app/data/men/celebscell";
+import { celebCollections } from "@/app/data/men/seleb-collections";
+import { celebsSell } from "@/app/data/men/celebs-cell";
+
 
 export default function CelbCollections() {
   const settings2 = {
@@ -26,13 +27,13 @@ export default function CelbCollections() {
   };
 
   return (
-    <div className="w-full max-w-7xl mx-auto brands overflow-x-hidden py-2 md:px-0 px-2">
+    <div className="w-full lg:max-w-7xl xl:max-w-350 mx-auto brands overflow-x-hidden py-2 md:px-0 px-2">
       <p className="mb-1.5">CREATED BY US</p>
       <p className="md:text-2xl font-semibold mb-2.5">Celebrity collections</p>
       <Slider {...settings}>
         {celebCollections.map((brand, index) => {
           return (
-            <div className="p-3 border h-15  border-gray-300" key={index}>
+            <div className="p-3 border h-15 bg-black  border-gray-300" key={index}>
               <Image
                 key={index}
                 src={brand.image}

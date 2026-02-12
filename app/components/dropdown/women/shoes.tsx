@@ -35,14 +35,14 @@ export default function Shoes() {
         <div className="grid grid-cols-2 gap-3.5">
           {brands.map((brand, index) => {
             return (
-              <div key={index} className=" p-4 bg-[#f4f1f1]">
+              <div key={index} className=" p-4 h-17 bg-black">
                 <Image
                   src={brand.image}
                   alt="logo"
                   sizes="100vh"
                   width={0}
                   height={0}
-                  className="w-full object-scale-down"
+                  className="w-full h-full object-scale-down"
                 />
               </div>
             );
@@ -53,7 +53,7 @@ export default function Shoes() {
       <div className="col-span-3">
         <div>
           <Image
-            src={`/dropdown/women/shoes/1.jpg`}
+            src={`/women/dropdown/shoes/1.jpg`}
             alt="logo"
             sizes="100vh"
             width={0}

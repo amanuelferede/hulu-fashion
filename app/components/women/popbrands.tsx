@@ -5,9 +5,9 @@ import Image from "next/image";
 
 import Slider from "react-slick";
 import { brands } from "../../data/women/brands";
-import { brandsSell } from "../../data/women/brandssell";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
 import { useRef } from "react";
+import { brandsSell } from "@/app/data/women/brands-sell";
 export default function PopularBrands() {
   const sliderRef = useRef<Slider>(null);
   const handleNext = () => {
@@ -36,14 +36,14 @@ export default function PopularBrands() {
   };
 
   return (
-    <div className="md:px-0 px-2 w-full max-w-7xl mx-auto brands overflow-x-hidden py-5">
+    <div className="md:px-0 px-2 w-full lg:max-w-7xl xl:max-w-350 mx-auto brands overflow-x-hidden py-5">
       <p className="mb-1.5">FROM OUR COMMUNITY</p>
       <p className="md:text-2xl font-semibold mb-2.5">Popular categories</p>
       <div className="relative">
         <Slider {...settings}>
           {brands.map((brand, index) => {
             return (
-              <div className="p-3 border h-15  border-gray-300" key={index}>
+              <div className="p-3 border h-15 bg-black  border-gray-300" key={index}>
                 <Image
                   key={index}
                   src={brand.image}
@@ -63,12 +63,12 @@ export default function PopularBrands() {
         <div
           className="w-[35%] h-full"
           style={{
-            backgroundImage: `url('/women/brands/cover/1.jpg')`,
+            backgroundImage: `url('/women/brands/6/c.jpg')`,
             backgroundPosition: "top center",
             backgroundSize: "cover",
           }}
         ></div>
-        <div className="w-[65%] h-full bg-linear-to-b from-sky-800/80 to-gray-900/95 to-95%  flex items-center justify-center brands">
+        <div className="w-[65%] h-full bg-linear-to-tl from-pink-200/80 to-yellow-100/95 to-95%  flex items-center justify-center brands">
           <div className="w-full relative ">
             <div
               onClick={handlePrev}

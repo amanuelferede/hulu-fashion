@@ -16,14 +16,14 @@ export default function PopularCategory() {
     slidesToScroll: 1,
   };
   return (
-    <div className="max-w-7xl mx-auto py-2 md:px-0 px-2">
+    <div className="lg:max-w-7xl xl:max-w-350 mx-auto py-2 md:px-0 px-2">
       <p className="mb-1.5">FROM OUR COMMUNITY</p>
       <p className="md:text-2xl font-semibold mb-2.5">Popular categories</p>
       <div className="md:grid hidden grid-cols-4 gap-4">
         <div className="relative">
           <div className="relative">
             <Image
-              src={`/men/pop-cat/1/c.jpg`}
+              src={`/men/categories/jeans/jeans.jpeg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -39,7 +39,7 @@ export default function PopularCategory() {
           </div>
           <div className="flex space-x-1.5 shadow-sm rounded-bl-xl">
             <Image
-              src={`/men/pop-cat/1/1.jpg`}
+              src={`/men/categories/jeans/1.jpg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -47,7 +47,7 @@ export default function PopularCategory() {
               className="grow h-25 object-scale-down p-2 bg-gray-100"
             />
             <Image
-              src={`/men/pop-cat/1/2.jpg`}
+              src={`/men/categories/jeans/2.jpeg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -55,7 +55,7 @@ export default function PopularCategory() {
               className="grow h-25 object-scale-down p-2 bg-gray-100"
             />
             <Image
-              src={`/men/pop-cat/1/3.jpg`}
+              src={`/men/categories/jeans/3.jpeg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -67,7 +67,7 @@ export default function PopularCategory() {
         <div className="">
           <div className="relative">
             <Image
-              src={`/men/pop-cat/2/c.jpg`}
+              src={`/men/categories/t-shirts/t-shirts.jpg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -83,7 +83,7 @@ export default function PopularCategory() {
           </div>
           <div className="flex space-x-1.5 shadow-sm rounded-bl-xl">
             <Image
-              src={`/men/pop-cat/2/1.jpg`}
+              src={`/men/categories/t-shirts/1.jpeg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -91,7 +91,7 @@ export default function PopularCategory() {
               className="grow h-25 object-scale-down p-2 bg-gray-100"
             />
             <Image
-              src={`/men/pop-cat/2/2.jpg`}
+              src={`/men/categories/t-shirts/2.jpg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -99,7 +99,7 @@ export default function PopularCategory() {
               className="grow h-25 object-scale-down p-2 bg-gray-100"
             />
             <Image
-              src={`/men/pop-cat/2/3.jpg`}
+              src={`/men/categories/t-shirts/3.jpg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -111,7 +111,7 @@ export default function PopularCategory() {
         <div className="">
           <div className="relative">
             <Image
-              src={`/men/pop-cat/3/c.jpg`}
+              src={`/men/categories/bags/bags.jpeg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -127,7 +127,7 @@ export default function PopularCategory() {
           </div>
           <div className="flex space-x-1.5 shadow-sm rounded-bl-xl">
             <Image
-              src={`/men/pop-cat/3/1.jpg`}
+              src={`/men/categories/bags/1.jpg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -135,7 +135,7 @@ export default function PopularCategory() {
               className="grow h-25 object-scale-down p-2 bg-gray-100"
             />
             <Image
-              src={`/men/pop-cat/3/2.jpg`}
+              src={`/men/categories/bags/2.jpeg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -143,7 +143,7 @@ export default function PopularCategory() {
               className="grow h-25 object-scale-down p-2 bg-gray-100"
             />
             <Image
-              src={`/men/pop-cat/3/3.jpg`}
+              src={`/men/categories/bags/3.jpg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -155,7 +155,7 @@ export default function PopularCategory() {
         <div className="">
           <div className="relative">
             <Image
-              src={`/men/pop-cat/4/c.jpg`}
+              src={`/men/categories/sweaers & hoodies/sweaers & hoodies.jpg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -171,7 +171,7 @@ export default function PopularCategory() {
           </div>
           <div className="flex space-x-1.5 shadow-sm rounded-bl-xl">
             <Image
-              src={`/men/pop-cat/4/1.jpg`}
+              src={`/men/categories/sweaers & hoodies/1.jpeg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -179,7 +179,7 @@ export default function PopularCategory() {
               className="grow h-25 object-scale-down p-2 bg-gray-100"
             />
             <Image
-              src={`/men/pop-cat/4/2.jpg`}
+              src={`/men/categories/sweaers & hoodies/2.jpg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -187,7 +187,7 @@ export default function PopularCategory() {
               className="grow h-25 object-scale-down p-2 bg-gray-100"
             />
             <Image
-              src={`/men/pop-cat/4/3.jpg`}
+              src={`/men/categories/sweaers & hoodies/3.jpeg`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -202,7 +202,7 @@ export default function PopularCategory() {
           <div className="relative">
             <div className="relative">
               <Image
-                src={`/men/pop-cat/1/c.jpg`}
+                src={`/men/categories/1/c.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -218,7 +218,7 @@ export default function PopularCategory() {
             </div>
             <div className="flex space-x-1.5 shadow-sm rounded-bl-xl">
               <Image
-                src={`/men/pop-cat/1/1.jpg`}
+                src={`/men/categories/1/1.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -226,7 +226,7 @@ export default function PopularCategory() {
                 className="grow h-25 object-scale-down p-2 bg-gray-100"
               />
               <Image
-                src={`/men/pop-cat/1/2.jpg`}
+                src={`/men/categories/1/2.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -234,7 +234,7 @@ export default function PopularCategory() {
                 className="grow h-25 object-scale-down p-2 bg-gray-100"
               />
               <Image
-                src={`/men/pop-cat/1/3.jpg`}
+                src={`/men/categories/1/3.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -246,7 +246,7 @@ export default function PopularCategory() {
           <div className="">
             <div className="relative">
               <Image
-                src={`/men/pop-cat/2/c.jpg`}
+                src={`/men/categories/2/c.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -262,7 +262,7 @@ export default function PopularCategory() {
             </div>
             <div className="flex space-x-1.5 shadow-sm rounded-bl-xl">
               <Image
-                src={`/men/pop-cat/2/1.jpg`}
+                src={`/men/categories/2/1.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -270,7 +270,7 @@ export default function PopularCategory() {
                 className="grow h-25 object-scale-down p-2 bg-gray-100"
               />
               <Image
-                src={`/men/pop-cat/2/2.jpg`}
+                src={`/men/categories/2/2.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -278,7 +278,7 @@ export default function PopularCategory() {
                 className="grow h-25 object-scale-down p-2 bg-gray-100"
               />
               <Image
-                src={`/men/pop-cat/2/3.jpg`}
+                src={`/men/categories/2/3.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -290,7 +290,7 @@ export default function PopularCategory() {
           <div className="">
             <div className="relative">
               <Image
-                src={`/men/pop-cat/3/c.jpg`}
+                src={`/men/categories/3/c.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -306,7 +306,7 @@ export default function PopularCategory() {
             </div>
             <div className="flex space-x-1.5 shadow-sm rounded-bl-xl">
               <Image
-                src={`/men/pop-cat/3/1.jpg`}
+                src={`/men/categories/3/1.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -314,7 +314,7 @@ export default function PopularCategory() {
                 className="grow h-25 object-scale-down p-2 bg-gray-100"
               />
               <Image
-                src={`/men/pop-cat/3/2.jpg`}
+                src={`/men/categories/3/2.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -322,7 +322,7 @@ export default function PopularCategory() {
                 className="grow h-25 object-scale-down p-2 bg-gray-100"
               />
               <Image
-                src={`/men/pop-cat/3/3.jpg`}
+                src={`/men/categories/3/3.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -334,7 +334,7 @@ export default function PopularCategory() {
           <div className="">
             <div className="relative">
               <Image
-                src={`/men/pop-cat/4/c.jpg`}
+                src={`/men/categories/4/c.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -350,7 +350,7 @@ export default function PopularCategory() {
             </div>
             <div className="flex space-x-1.5 shadow-sm rounded-bl-xl">
               <Image
-                src={`/men/pop-cat/4/1.jpg`}
+                src={`/men/categories/4/1.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -358,7 +358,7 @@ export default function PopularCategory() {
                 className="grow h-25 object-scale-down p-2 bg-gray-100"
               />
               <Image
-                src={`/men/pop-cat/4/2.jpg`}
+                src={`/men/categories/4/2.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}
@@ -366,7 +366,7 @@ export default function PopularCategory() {
                 className="grow h-25 object-scale-down p-2 bg-gray-100"
               />
               <Image
-                src={`/men/pop-cat/4/3.jpg`}
+                src={`/men/categories/4/3.jpg`}
                 alt="logo"
                 sizes="100vh"
                 width={0}

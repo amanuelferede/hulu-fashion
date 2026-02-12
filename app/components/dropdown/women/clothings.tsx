@@ -53,7 +53,7 @@ export default function Clothings() {
         <div className="grid grid-cols-1 gap-3.5">
           {brands.slice(0, 5).map((brand, index) => {
             return (
-              <div key={index} className=" p-4 bg-[#f4f1f1]">
+              <div key={index} className=" p-4 bg-black">
                 <Image
                   src={brand.image}
                   alt="logo"
@@ -70,7 +70,7 @@ export default function Clothings() {
 
       <div className="col-span-3">
         <Image
-          src={`/dropdown/women/clothings/1.jpg`}
+          src={`/women/dropdown/clothing/1.jpg`}
           alt="logo"
           sizes="100vh"
           width={0}

@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import Slider from "react-slick";
 import { brands } from "@/app/data/men/brands";
-import { brandsSell } from "@/app/data/men/brandssell";
+import { brandsSell } from "@/app/data/men/brands-sell";
 
 export default function PopularBrands() {
   const settings2 = {
@@ -27,7 +27,7 @@ export default function PopularBrands() {
   };
 
   return (
-    <div className="w-full max-w-7xl mx-auto brands overflow-x-hidden py-5">
+    <div className="w-full lg:max-w-7xl xl:max-w-350 mx-auto brands overflow-x-hidden py-5">
       <div className="flex flex-col space-y-0.5 my-3">
         <p>From out community</p>
         <p className="text-3xl font-bold">Popular brands</p>
@@ -35,7 +35,7 @@ export default function PopularBrands() {
       <Slider {...settings}>
         {brands.map((brand, index) => {
           return (
-            <div className="p-3 border h-15  border-gray-300" key={index}>
+            <div className="p-3 border h-15 bg-black  border-gray-300" key={index}>
               <Image
                 key={index}
                 src={brand.image}
@@ -59,7 +59,7 @@ export default function PopularBrands() {
             backgroundSize: "cover",
           }}
         ></div>
-        <div className="w-[65%] h-full bg-linear-to-b from-sky-800/80 to-gray-900/95 to-95%  flex items-center justify-center brands">
+        <div className="w-[65%] h-full bg-linear-to-b from-sky-300/80 to-gray-100/95 to-95%  flex items-center justify-center brands">
           <div className="w-full ">
             <Slider {...settings}>
               {brandsSell.map((brand, index) => {

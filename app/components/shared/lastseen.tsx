@@ -19,7 +19,7 @@ export default function LastSeen() {
     slidesToScroll: 1,
   };
   return (
-    <div className="md:px-0 px-2 max-w-7xl mx-auto py-5 overflow-x-hidden">
+    <div className="md:px-0 px-2 lg:max-w-7xl xl:max-w-350l mx-auto py-5 overflow-x-hidden">
       <div className="flex flex-col space-y-2 my-3">
         <p>CONTINUE SHOPPING</p>
         <p className="md:text-2xl font-bold">Last seen products</p>

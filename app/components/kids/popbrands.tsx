@@ -5,7 +5,7 @@ import Image from "next/image";
 
 import Slider from "react-slick";
 import { brands } from "@/app/data/kids/brands";
-import { brandsSell } from "@/app/data/kids/brandssell";
+import { brandsSell } from "@/app/data/kids/brands-sell";
 
 export default function PopularBrands() {
   const settings = {

@@ -6,7 +6,7 @@ export default function Inspirations() {
         <div className="grid grid-cols-4 gap-5">
           <div>
             <Image
-              src={`/dropdown/women/inspiration/1.png`}
+              src={`/women/dropdown/inspirations/stories/1.png`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -16,7 +16,7 @@ export default function Inspirations() {
           </div>
           <div>
             <Image
-              src={`/dropdown/women/inspiration/2.png`}
+              src={`/women/dropdown/inspirations/stories/2.png`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -26,7 +26,7 @@ export default function Inspirations() {
           </div>
           <div>
             <Image
-              src={`/dropdown/women/inspiration/3.png`}
+              src={`/women/dropdown/inspirations/stories/3.png`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -36,7 +36,7 @@ export default function Inspirations() {
           </div>
           <div>
             <Image
-              src={`/dropdown/women/inspiration/4.png`}
+              src={`/women/dropdown/inspirations/stories/4.png`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -46,7 +46,7 @@ export default function Inspirations() {
           </div>
           <div>
             <Image
-              src={`/dropdown/women/inspiration/5.png`}
+              src={`/women/dropdown/inspirations/stories/5.png`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -56,7 +56,7 @@ export default function Inspirations() {
           </div>
           <div>
             <Image
-              src={`/dropdown/women/inspiration/6.png`}
+              src={`/women/dropdown/inspirations/stories/6.png`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -66,7 +66,7 @@ export default function Inspirations() {
           </div>
           <div>
             <Image
-              src={`/dropdown/women/inspiration/7.png`}
+              src={`/women/dropdown/inspirations/stories/7.png`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -76,7 +76,7 @@ export default function Inspirations() {
           </div>
           <div>
             <Image
-              src={`/dropdown/women/inspiration/8.png`}
+              src={`/women/dropdown/inspirations/stories/8.png`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -91,7 +91,7 @@ export default function Inspirations() {
           <div>
             {" "}
             <Image
-              src={`/dropdown/women/inspiration/11.png`}
+              src={`/women/dropdown/inspirations/outfits/1.png`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -102,7 +102,7 @@ export default function Inspirations() {
           <div>
             {" "}
             <Image
-              src={`/dropdown/women/inspiration/22.png`}
+              src={`/women/dropdown/inspirations/outfits/2.png`}
               alt="logo"
               sizes="100vh"
               width={0}
@@ -113,7 +113,7 @@ export default function Inspirations() {
           <div>
             {" "}
             <Image
-              src={`/dropdown/women/inspiration/33.png`}
+              src={`/women/dropdown/inspirations/outfits/3.png`}
               alt="logo"
               sizes="100vh"
               width={0}

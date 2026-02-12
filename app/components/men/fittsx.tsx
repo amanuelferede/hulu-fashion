@@ -1,7 +1,7 @@
 import Image from "next/image";
 export default function FindFit() {
   return (
-    <div className="max-w-7xl mx-auto py-5">
+    <div className="lg:max-w-7xl xl:max-w-350 mx-auto py-5">
       <div className="grid md:grid-cols-4 gap-4">
         <div className="">
           <Image

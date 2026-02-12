@@ -2,7 +2,7 @@ import Image from "next/image";
 import { IoTimerOutline } from "react-icons/io5";
 export default function Inspiration() {
   return (
-    <div className="md:px-0 px-2 max-w-7xl mx-auto py-2">
+    <div className="md:px-0 px-2 lg:max-w-7xl xl:max-w-350 mx-auto py-2">
       <div className="flex flex-col space-y-1 my-3">
         <p>GET INISPIRED</p>
         <p className="md:text-2xl font-bold">Need some inspiration</p>
@@ -11,6 +11,16 @@ export default function Inspiration() {
         <div className="h-80">
           <Image
             src={`/women/inspiration/1.jpg`}
+            alt="logo"
+            sizes="100vh"
+            width={0}
+            height={0}
+            className="w-full h-80 object-cover"
+          />
+        </div>
+           <div className="h-80">
+          <Image
+            src={`/women/inspiration/2.jpg`}
             alt="logo"
             sizes="100vh"
             width={0}

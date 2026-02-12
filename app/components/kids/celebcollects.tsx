@@ -4,8 +4,9 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 
 import Slider from "react-slick";
-import { celebCollections } from "../../data/women/celebcollections";
-import { celebsSell } from "../../data/women/celebscell";
+import { celebCollections } from "@/app/data/kids/seleb-collections";
+import { celebsSell } from "@/app/data/kids/celebs-cell";
+
 export default function CelbCollections() {
   const settings2 = {
     infinite: false,

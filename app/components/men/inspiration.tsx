@@ -2,7 +2,7 @@ import Image from "next/image";
 import { IoTimerOutline } from "react-icons/io5";
 export default function Inspiration() {
   return (
-    <div className="max-w-7xl mx-auto py-2 md:px-0 px-2">
+    <div className="lg:max-w-7xl xl:max-w-350 mx-auto py-2 md:px-0 px-2">
       <p className="mb-1.5">GET INSPIRED</p>
       <p className="md:text-2xl font-semibold mb-2.5">Need some inspiration</p>
       <div className="md:grid hidden grid-cols-4 gap-4">

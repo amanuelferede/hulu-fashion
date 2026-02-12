@@ -14,7 +14,7 @@ export default function Ocational() {
     slidesToScroll: 1,
   };
   return (
-    <div className="md:px-0 px-2 max-w-7xl mx-auto py-2">
+    <div className="md:px-0 px-2 lg:max-w-7xl xl:max-w-350 mx-auto py-2">
       <p className="mb-1.5">CREATED BY US</p>
       <p className="md:text-2xl font-semibold mb-2.5">Occassional wearing</p>
       <div className="md:grid hidden grid-cols-4 gap-4">

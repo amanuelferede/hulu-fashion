@@ -24,3 +24,15 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+.gallery .slick-slide > div {
+  margin-right: 0px !important; /* Padding for the space between slides */
+}
+
+.pop-brands .slick-slide > div {
+  margin-right: 5px !important; /* Padding for the space between slides */
+}
+
+.slick-slide > div {
+  margin-right: 20px !important; /* Padding for the space between slides */
+}
+

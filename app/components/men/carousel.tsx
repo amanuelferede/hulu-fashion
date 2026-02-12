@@ -33,7 +33,7 @@ export default function Carousel() {
 
                 <div className="flex space-x-1.5 pl-1.5">
                   <Image
-                    src={`/men/carousel/sell/1/1.jpg`}
+                    src={`/men/carousel/1/s1.jpg`}
                     alt="logo"
                     sizes="100vh"
                     width={0}
@@ -41,7 +41,7 @@ export default function Carousel() {
                     className="w-25 h-30 p-2 bg-gray-100 rounded-md object-scale-down"
                   />
                   <Image
-                    src={`/men/carousel/sell/1/2.jpg`}
+                    src={`/men/carousel/1/s2.jpg`}
                     alt="logo"
                     sizes="100vh"
                     width={0}
@@ -49,7 +49,7 @@ export default function Carousel() {
                     className="w-25 h-30 p-2 bg-gray-100 rounded-md object-scale-down"
                   />
                   <Image
-                    src={`/men/carousel/sell/1/3.jpg`}
+                    src={`/men/carousel/1/s3.jpg`}
                     alt="logo"
                     sizes="100vh"
                     width={0}
@@ -57,7 +57,7 @@ export default function Carousel() {
                     className="w-25 h-30 p-2 bg-gray-100 rounded-md object-scale-down"
                   />
                   <Image
-                    src={`/men/carousel/sell/1/4.jpg`}
+                    src={`/men/carousel/1/s4.jpg`}
                     alt="logo"
                     sizes="100vh"
                     width={0}
@@ -69,7 +69,7 @@ export default function Carousel() {
               <div
                 className="w-[65%]"
                 style={{
-                  backgroundImage: `url('/men/carousel/1.png')`,
+                  backgroundImage: `url('/men/carousel/1/1.png')`,
                   backgroundPosition: "top center",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
@@ -92,7 +92,7 @@ export default function Carousel() {
 
                 <div className="flex space-x-1.5 pl-1.5">
                   <Image
-                    src={`/men/carousel/sell/2/1.jpg`}
+                    src={`/men/carousel/2/s1.jpg`}
                     alt="logo"
                     sizes="100vh"
                     width={0}
@@ -100,7 +100,7 @@ export default function Carousel() {
                     className="w-25 h-30 p-2 bg-gray-100 rounded-md object-scale-down"
                   />
                   <Image
-                    src={`/men/carousel/sell/2/2.jpg`}
+                    src={`/men/carousel/2/s2.jpg`}
                     alt="logo"
                     sizes="100vh"
                     width={0}
@@ -108,7 +108,7 @@ export default function Carousel() {
                     className="w-25 h-30 p-2 bg-gray-100 rounded-md object-scale-down"
                   />
                   <Image
-                    src={`/men/carousel/sell/2/3.jpg`}
+                    src={`/men/carousel/2/s3.jpg`}
                     alt="logo"
                     sizes="100vh"
                     width={0}
@@ -116,7 +116,7 @@ export default function Carousel() {
                     className="w-25 h-30 p-2 bg-gray-100 rounded-md object-scale-down"
                   />
                   <Image
-                    src={`/men/carousel/sell/2/4.jpg`}
+                    src={`/men/carousel/2/s4.jpg`}
                     alt="logo"
                     sizes="100vh"
                     width={0}
@@ -128,7 +128,7 @@ export default function Carousel() {
               <div
                 className="w-[65%]"
                 style={{
-                  backgroundImage: `url('/men/carousel/2.png')`,
+                  backgroundImage: `url('/men/carousel/2/2.png')`,
                   backgroundPosition: "top center",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
@@ -153,7 +153,7 @@ export default function Carousel() {
 
                 <div className="flex space-x-1.5 pl-1.5">
                   <Image
-                    src={`/men/carousel/sell/3/1.jpg`}
+                    src={`/men/carousel/3/s1.jpg`}
                     alt="logo"
                     sizes="100vh"
                     width={0}
@@ -161,7 +161,7 @@ export default function Carousel() {
                     className="w-25 h-30 p-2 bg-gray-100 rounded-md object-scale-down"
                   />
                   <Image
-                    src={`/men/carousel/sell/3/2.jpg`}
+                    src={`/men/carousel/3/s2.jpg`}
                     alt="logo"
                     sizes="100vh"
                     width={0}
@@ -169,7 +169,7 @@ export default function Carousel() {
                     className="w-25 h-30 p-2 bg-gray-100 rounded-md object-scale-down"
                   />
                   <Image
-                    src={`/men/carousel/sell/3/3.jpg`}
+                    src={`/men/carousel/3/s3.jpg`}
                     alt="logo"
                     sizes="100vh"
                     width={0}
@@ -177,7 +177,7 @@ export default function Carousel() {
                     className="w-25 h-30 p-2 bg-gray-100 rounded-md object-scale-down"
                   />
                   <Image
-                    src={`/men/carousel/sell/3/4.jpg`}
+                    src={`/men/carousel/3/s4.jpg`}
                     alt="logo"
                     sizes="100vh"
                     width={0}
@@ -189,7 +189,7 @@ export default function Carousel() {
               <div
                 className="w-[65%]"
                 style={{
-                  backgroundImage: `url('/men/carousel/3.png')`,
+                  backgroundImage: `url('/men/carousel/3/3.png')`,
                   backgroundPosition: "top center",
                   backgroundSize: "cover",
                   backgroundRepeat: "no-repeat",
@@ -216,7 +216,7 @@ export default function Carousel() {
               </p>
               <div className="absolute w-full bottom-2 flex space-x-1.5 px-2 justify-center">
                 <Image
-                  src={`/men/carousel/sell/1/1.jpg`}
+                  src={`/men/carousel/1/1.jpg`}
                   alt="logo"
                   sizes="100vh"
                   width={0}
@@ -224,7 +224,7 @@ export default function Carousel() {
                   className="grow h-18 p-2 bg-gray-100 rounded-md object-scale-down"
                 />
                 <Image
-                  src={`/men/carousel/sell/1/2.jpg`}
+                  src={`/men/carousel/1/2.jpg`}
                   alt="logo"
                   sizes="100vh"
                   width={0}
@@ -232,7 +232,7 @@ export default function Carousel() {
                   className="grow h-18 p-2 bg-gray-100 rounded-md object-scale-down"
                 />
                 <Image
-                  src={`/men/carousel/sell/1/3.jpg`}
+                  src={`/men/carousel/1/3.jpg`}
                   alt="logo"
                   sizes="100vh"
                   width={0}
@@ -240,7 +240,7 @@ export default function Carousel() {
                   className="grow h-18 p-2 bg-gray-100 rounded-md object-scale-down"
                 />
                 <Image
-                  src={`/men/carousel/sell/1/4.jpg`}
+                  src={`/men/carousel/1/4.jpg`}
                   alt="logo"
                   sizes="100vh"
                   width={0}
@@ -271,7 +271,7 @@ export default function Carousel() {
               </p>
               <div className="absolute w-full bottom-2 flex space-x-1.5 px-2 justify-center">
                 <Image
-                  src={`/men/carousel/sell/2/1.jpg`}
+                  src={`/men/carousel/2/1.jpg`}
                   alt="logo"
                   sizes="100vh"
                   width={0}
@@ -279,7 +279,7 @@ export default function Carousel() {
                   className="grow h-18 p-2 bg-gray-100 rounded-md object-scale-down"
                 />
                 <Image
-                  src={`/men/carousel/sell/2/2.jpg`}
+                  src={`/men/carousel/2/2.jpg`}
                   alt="logo"
                   sizes="100vh"
                   width={0}
@@ -287,7 +287,7 @@ export default function Carousel() {
                   className="grow h-18 p-2 bg-gray-100 rounded-md object-scale-down"
                 />
                 <Image
-                  src={`/men/carousel/sell/2/3.jpg`}
+                  src={`/men/carousel/2/3.jpg`}
                   alt="logo"
                   sizes="100vh"
                   width={0}
@@ -295,7 +295,7 @@ export default function Carousel() {
                   className="grow h-18 p-2 bg-gray-100 rounded-md object-scale-down"
                 />
                 <Image
-                  src={`/men/carousel/sell/2/4.jpg`}
+                  src={`/men/carousel/2/4.jpg`}
                   alt="logo"
                   sizes="100vh"
                   width={0}
@@ -327,7 +327,7 @@ export default function Carousel() {
               </p>
               <div className="absolute w-full bottom-2 flex space-x-1.5 px-2 justify-center">
                 <Image
-                  src={`/men/carousel/sell/3/1.jpg`}
+                  src={`/men/carousel/3/1.jpg`}
                   alt="logo"
                   sizes="100vh"
                   width={0}
@@ -335,7 +335,7 @@ export default function Carousel() {
                   className="grow h-18 p-2 bg-gray-100 rounded-md object-scale-down"
                 />
                 <Image
-                  src={`/men/carousel/sell/3/2.jpg`}
+                  src={`/men/carousel/3/2.jpg`}
                   alt="logo"
                   sizes="100vh"
                   width={0}
@@ -343,7 +343,7 @@ export default function Carousel() {
                   className="grow h-18 p-2 bg-gray-100 rounded-md object-scale-down"
                 />
                 <Image
-                  src={`/men/carousel/sell/3/3.jpg`}
+                  src={`/men/carousel/3/3.jpg`}
                   alt="logo"
                   sizes="100vh"
                   width={0}
@@ -351,7 +351,7 @@ export default function Carousel() {
                   className="grow h-18 p-2 bg-gray-100 rounded-md object-scale-down"
                 />
                 <Image
-                  src={`/men/carousel/sell/3/4.jpg`}
+                  src={`/men/carousel/3/4.jpg`}
                   alt="logo"
                   sizes="100vh"
                   width={0}

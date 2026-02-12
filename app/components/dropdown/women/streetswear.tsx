@@ -28,7 +28,7 @@ export default function StreetsWears() {
         <div className="grid grid-cols-1 gap-3.5">
           {brands.slice(0, 5).map((brand, index) => {
             return (
-              <div key={index} className=" p-4 bg-[#f4f1f1]">
+              <div key={index} className=" p-4 bg-black">
                 <Image
                   src={brand.image}
                   alt="logo"
@@ -45,7 +45,7 @@ export default function StreetsWears() {
       <div className="col-span-4">
         <div>
           <Image
-            src={`/dropdown/women/streetswear/c.jpg`}
+            src={`/women/dropdown/streetswear/1.jpg`}
             alt="logo"
             sizes="100vh"
             width={0}

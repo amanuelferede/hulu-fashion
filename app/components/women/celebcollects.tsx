@@ -4,10 +4,11 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 
 import Slider from "react-slick";
-import { celebCollections } from "../../data/women/celebcollections";
-import { celebsSell } from "../../data/women/celebscell";
+
 import { useRef } from "react";
 import { IoIosArrowBack, IoIosArrowForward } from "react-icons/io";
+import { celebCollections } from "@/app/data/women/seleb-collections";
+import { celebsSell } from "@/app/data/women/celebs-cell";
 export default function CelbCollections() {
   const sliderRef = useRef<Slider>(null);
   const handleNext = () => {
@@ -40,13 +41,13 @@ export default function CelbCollections() {
   };
 
   return (
-    <div className="md:px-0 px-2 max-w-7xl mx-auto overflow-x-hidden py-2">
+    <div className="md:px-0 px-2 lg:max-w-7xl xl:max-w-350 mx-auto overflow-x-hidden py-2">
       <p className="mb-1.5">CREATED BY US</p>
       <p className="md:text-2xl font-semibold mb-2.5">Celebrity collections</p>
       <Slider {...settings}>
         {celebCollections.map((brand, index) => {
           return (
-            <div className="p-3 border h-15  border-gray-300" key={index}>
+            <div className="p-3 border h-15 bg-black border-gray-300" key={index}>
               <Image
                 key={index}
                 src={brand.image}
